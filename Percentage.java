@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Percentage {
     public static void main(String[] args){
-        double maxMarks = 0, obtainedMarks = 0, percentage;
+        double maxMarks, obtainedMarks , percentage;
         Scanner read = new Scanner(System.in);
 
         
@@ -14,7 +14,7 @@ public class Percentage {
             }
         } while (maxMarks <= 0);
 
-        // Loop for valid obtained marks
+       
         do {
             System.out.print("Enter obtained marks: ");
             obtainedMarks = read.nextDouble();
